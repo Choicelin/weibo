@@ -1,13 +1,17 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Weibo App</title>
-</head>
-<body>
-    <h1>主页</h1>
-</body>
-</html>
+@extends('layouts.default')
+@section('title', '主页')
+
+@section('content')
+    <div class="jumbotron">
+        <h1>风雪酒馆</h1>
+        <p class="lead">
+            你现在所看到的是 <a href="http://www.fenxiangtech.com" target="_blank">全栈小站</a> laravel项目
+        </p>
+        <p>
+            一切，将从这里开始。
+        </p>
+        <p>
+            <a class="btn btn-lg btn-success" href="#" role="button">现在注册</a>
+        </p>
+    </div>
+@stop
